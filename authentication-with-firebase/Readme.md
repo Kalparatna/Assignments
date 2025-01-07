@@ -2,6 +2,17 @@
 # Firebase Phone Authentication
 
 This project demonstrates a phone number authentication system using Firebase. The app allows users to verify their phone numbers via OTP (One-Time Password) sent through SMS.
+### 7.UI
+
+Below are some demo images for the project:
+
+| Image 1 | Image 2 |
+|:-------:|:-------:|
+| ![Image 1](./public/1.png) | ![Image 2](./public/2.png) |
+
+| Image 3 | Image 4 |
+|:-------:|:-------:|
+| ![Image 3](./public/3.png) | ![Image 4](./public/4.png) |
 
 ## Features
 - Firebase authentication for phone number verification.
