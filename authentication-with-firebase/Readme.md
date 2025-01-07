@@ -81,3 +81,8 @@ Once the app is running:
 1. Enter your phone number and click **Send code via SMS**.
 2. Wait for the OTP to be sent to your phone.
 3. Enter the OTP and click **Verify OTP** to complete the authentication process.
+
+### 7. Demo Video
+For a demonstration of the project, click on the video below to watch:
+
+[Watch the Demo Video](./public/video.mp4)
