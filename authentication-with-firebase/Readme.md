@@ -81,6 +81,3 @@ Once the app is running:
 1. Enter your phone number and click **Send code via SMS**.
 2. Wait for the OTP to be sent to your phone.
 3. Enter the OTP and click **Verify OTP** to complete the authentication process.
-
-### 7. Customize and Deploy
-You can modify the app to add more features or deploy it using platforms like [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
