@@ -1,8 +1,10 @@
+### Deployed Version Available At 
 
+[Authentication App](https://react-firebase-authenticaiton.vercel.app/)
 # Firebase Phone Authentication
 
 This project demonstrates a phone number authentication system using Firebase. The app allows users to verify their phone numbers via OTP (One-Time Password) sent through SMS.
-### 7.UI
+### .UI
 
 Below are some demo images for the project:
 
