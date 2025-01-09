@@ -3,8 +3,8 @@ const nodemailer = require('nodemailer');
 
 const mailOptions = {
     from: process.env.EMAIL_USER, 
-    to: 'indianteam727@gmail.com', 
-    subject: "Sending Email to Rajat", 
+    to: 'recipientmailid', 
+    subject: "Nodemailer testing", 
     text: "Welcome to NodeMailer, It's Working", 
     html: '<h1>Welcome</h1><p>That was easy!</p>' 
 };
