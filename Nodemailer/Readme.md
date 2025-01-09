@@ -17,8 +17,8 @@ Follow these steps to set up and run the project:
 If you're starting from a Git repository, clone the project:
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/Kalparatna/Assignments.git
+cd Assignments/Nodemailer
 ```
 
 If you're starting from scratch, create a folder and initialize a new Node.js project.
