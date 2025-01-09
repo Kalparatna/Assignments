@@ -1,0 +1,221 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f7f7f7;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Resume container with defined A4 size */
+.resume {
+    width: 21cm; /* A4 size */
+    height: 29.7cm; /* A4 height */
+    background: #ffffff;
+    padding: 35px 60px; /* Increased padding for better margins */
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 13px; /* Further increased font size */
+    overflow: hidden;
+}
+
+/* Header Section */
+.resume-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.resume-header .name {
+    font-size: 36px; /* Increased name font size */
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.resume-header .role {
+    font-size: 20px; /* Increased role font size */
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+.resume-header .contact-info {
+    text-align: right;
+    font-size: 16px; /* Slightly larger font size for contact info */
+    color: #7f8c8d;
+}
+
+.resume-header .contact-info p {
+    margin-bottom: 5px;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    justify-content: flex-start; /* Align items from the left */
+    align-items: center; /* Vertically center the items */
+    padding: 20px 0; /* Increased padding for profile section */
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column; /* Stack name and role vertically */
+    flex-grow: 1; /* Ensure name and role take available space */
+}
+
+.profile-photo {
+    margin-left: auto; /* Pushes the profile photo to the right */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #3498db; /* Added blue border around profile pic */
+    padding: 4px; /* Reduced padding to ensure the circle looks perfect */
+    border-radius: 50%;
+    width: 120px; /* Fixed width */
+    height: 120px; /* Fixed height */
+    overflow: hidden; /* Ensures image fits well within the circle */
+}
+
+.profile-photo img {
+    width: 100%; /* Ensures image fits perfectly within the circular container */
+    height: 100%; /* Ensures image fits perfectly within the circular container */
+    object-fit: cover; /* Ensures the image covers the whole circle */
+    border-radius: 50%; /* Ensures the image remains circular */
+    cursor: pointer; /* Makes the profile photo clickable */
+}
+
+.profile-details h1,
+.profile-details p {
+    margin: 0;
+}
+
+.profile-details h1 {
+    font-size: 24px; /* Increased font size for name */
+}
+
+.profile-details p {
+    font-size: 20px; /* Increased font size for role */
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 18px; /* Reduced margin to avoid excess space */
+}
+
+h2 {
+    font-size: 20px; /* Increased font size for section titles */
+    color: #3498db; /* Changed heading color to blue */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3498db; /* Added blue border to section headings */
+    padding-bottom: 5px;
+}
+
+/* Editable field styling */
+.editable-field {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.editable-field:hover {
+    color: #3498db;
+}
+
+input[type="text"] {
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 13px; /* Further increased font size for input */
+}
+
+/* Skills Section */
+.skills-category {
+    margin-bottom: 18px; /* Reduced margin */
+}
+
+.skills-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px; /* Slightly increased gap */
+}
+
+.skills-category h3 {
+    font-size: 18px; /* Increased font size */
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #3498db; /* Blue color for skills category heading */
+}
+
+.editable-field-container {
+    flex-basis: 48%;
+}
+
+/* Contact Section */
+.contact-details {
+    margin-top: 10px;
+}
+
+.contact-section p {
+    margin-bottom: 8px;
+}
+
+/* Achievements Section */
+.achievement-item {
+    margin-bottom: 6px; /* Reduced margin for achievements */
+}
+
+/* Experience Section */
+.experience-item {
+    margin-bottom: 15px; /* Reduced margin for experience items */
+}
+
+.experience-section p {
+    margin-bottom: 8px;
+}
+
+/* Education Section */
+.education-item {
+    margin-bottom: 10px; /* Reduced margin for education items */
+}
+
+.education-section p {
+    margin-bottom: 6px;
+}
+
+/* Additional responsiveness */
+@media screen and (max-width: 768px) {
+    .resume {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .profile-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-photo img {
+        margin-bottom: 15px;
+    }
+
+    .skills-row {
+        flex-direction: column;
+    }
+
+    .editable-field-container {
+        flex-basis: 100%;
+    }
+}
